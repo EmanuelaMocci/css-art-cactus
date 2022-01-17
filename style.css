@@ -9,7 +9,8 @@ body {
   align-items: center;
 }
 /* cactus 1 */
-.cactus-1-verde {
+.cactus-1-verde,
+.cactus-3-verde {
   background-image: repeating-linear-gradient(
     to right,
     #467340,
@@ -64,4 +65,39 @@ body {
   background-color: #8d4f0c;
   width: 70px;
   height: 7px;
+}
+/* cactus 3 */
+.cactus-3 {
+  position: relative;
+}
+.cactus-3-braccio {
+  position: absolute;
+  top: 30px;
+  left: 70px;
+  height: 20px;
+  width: 10px;
+  background-image: repeating-linear-gradient(
+    to right,
+    #467340,
+    #467340 3px,
+    #518f3b 0,
+    #518f3b 10px
+  );
+}
+.cactus-3-braccio-1 {
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  background-image: repeating-linear-gradient(
+    to right,
+    #467340,
+    #467340 3px,
+    #518f3b 0,
+    #518f3b 10px
+  );
+  height: 40px;
+  width: 20px;
+  border-radius: 50% / 20%;
+  border-bottom-right-radius: 0;
+  box-shadow: 8px 0px 0px 0px rgba(0, 0, 0, 0.17);
 }
