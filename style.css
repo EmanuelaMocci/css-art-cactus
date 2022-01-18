@@ -2,11 +2,17 @@ body {
   background-color: #dcf4d3;
   height: 100vh;
 }
-.cactus-container {
+.main-container {
   display: flex;
-  justify-content: center;
   height: 100vh;
   align-items: center;
+  justify-content: center;
+}
+.cactus-container {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  margin-top: -150px;
 }
 /* cactus 1 */
 .cactus-1-verde,
@@ -27,12 +33,8 @@ body {
   margin-left: 80px;
   box-shadow: 8px 0px 0px 0px rgba(0, 0, 0, 0.17);
 }
-.cactus-2-verde-contaier {
-  position: relative;
-}
 .cactus-2-verde {
-  position: absolute;
-  bottom: 330px;
+  position: relative;
   background-color: #518f3b;
   background-image: radial-gradient(#a0d18e 10%, transparent 11%),
     radial-gradient(#a0d18e 10%, transparent 11%);
@@ -43,31 +45,25 @@ body {
   height: 60px;
   border-radius: 80% / 80%;
   margin-left: 75px;
-  box-shadow: 8px 0px 0px 0px rgba(0, 0, 0, 0.17),
-    inset 20px 0px 10px 0px rgb(0 0 0 / 17%);
-  /* box-shadow: inset 27px 0px 0px 0px rgba(0, 0, 0, 0.17); */
+  box-shadow: 8px 0px 0px 0px rgba(0, 0, 0, 0.17);
   clip: rect(0px, 90px, 55px, 0px);
 }
 .cactus-2-braccio-1 {
-  position: absolute;
-  bottom: 350px;
   background-color: #518f3b;
   background-image: radial-gradient(#a0d18e 10%, transparent 11%),
     radial-gradient(#a0d18e 10%, transparent 11%);
   background-size: 20px 20px;
-  background-position: 0 0, 30px 30px;
+  background-position: 0 5px, 25px 35px;
   background-repeat: repeat;
   width: 30px;
   height: 40px;
+  margin-left: 40px;
   border-radius: 80% / 80%;
-  margin-left: 115px;
   box-shadow: 6px 0px 0px 0px rgba(0, 0, 0, 0.17);
   transform: rotate(45deg);
   z-index: 99;
 }
 .cactus-2-braccio-2 {
-  position: absolute;
-  bottom: 384px;
   background-color: #518f3b;
   background-image: radial-gradient(#a0d18e 10%, transparent 11%),
     radial-gradient(#a0d18e 10%, transparent 11%);
@@ -76,15 +72,12 @@ body {
   background-repeat: repeat;
   width: 20px;
   height: 30px;
+  margin-left: 50px;
+  margin-top: -67px;
   border-radius: 80% / 80%;
-  margin-left: 122px;
   box-shadow: 6px 0px 0px 0px rgba(0, 0, 0, 0.17);
   transform: rotate(20deg);
-  z-index: 99;
-}
-#base-2,
-#base-4 {
-  margin-top: 80px;
+  z-index: 90;
 }
 .base {
   background-color: #b56511;
@@ -138,17 +131,20 @@ body {
   box-shadow: 8px 0px 0px 0px rgba(0, 0, 0, 0.17);
 }
 .table {
-  width: 800px;
   position: absolute;
-  top: 60.5%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 800px;
   box-shadow: 0px 7px 0px 0px rgba(0, 0, 0, 0.17);
 }
 /* cactus 4 */
+.cactus-4 {
+  position: relative;
+}
 .cactus-4-verde {
   position: absolute;
-  bottom: 326px;
+  bottom: 40px;
   background-color: #518f3b;
   width: 60px;
   height: 60px;
