@@ -25,28 +25,62 @@ body {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   margin-left: 80px;
-  box-shadow: 8px 2px 0px 0px rgba(0, 0, 0, 0.17);
+  box-shadow: 8px 0px 0px 0px rgba(0, 0, 0, 0.17);
 }
 .cactus-2-verde-contaier {
   position: relative;
 }
 .cactus-2-verde {
   position: absolute;
-  bottom: 326px;
+  bottom: 330px;
   background-color: #518f3b;
   background-image: radial-gradient(#a0d18e 10%, transparent 11%),
     radial-gradient(#a0d18e 10%, transparent 11%);
   background-size: 20px 20px;
   background-position: 0 0, 30px 30px;
   background-repeat: repeat;
-  width: 60px;
+  width: 40px;
   height: 60px;
   border-radius: 80% / 80%;
-  margin-left: 65px;
-  box-shadow: 8px 2px 0px 0px rgba(0, 0, 0, 0.17),
+  margin-left: 75px;
+  box-shadow: 8px -2px 0px 0px rgba(0, 0, 0, 0.17),
     inset 20px 0px 10px 0px rgb(0 0 0 / 17%);
   /* box-shadow: inset 27px 0px 0px 0px rgba(0, 0, 0, 0.17); */
-  clip: rect(0px, 100px, 50px, 0px);
+  clip: rect(0px, 90px, 55px, 0px);
+}
+.cactus-2-braccio-1 {
+  position: absolute;
+  bottom: 350px;
+  background-color: #518f3b;
+  background-image: radial-gradient(#a0d18e 10%, transparent 11%),
+    radial-gradient(#a0d18e 10%, transparent 11%);
+  background-size: 20px 20px;
+  background-position: 0 0, 30px 30px;
+  background-repeat: repeat;
+  width: 30px;
+  height: 40px;
+  border-radius: 80% / 80%;
+  margin-left: 115px;
+  box-shadow: 6px 0px 0px 0px rgba(0, 0, 0, 0.17);
+  transform: rotate(45deg);
+  z-index: 99;
+}
+.cactus-2-braccio-2 {
+  position: absolute;
+  bottom: 384px;
+  background-color: #518f3b;
+  background-image: radial-gradient(#a0d18e 10%, transparent 11%),
+    radial-gradient(#a0d18e 10%, transparent 11%);
+  background-size: 20px 20px;
+  background-position: 0 0, 30px 30px;
+  background-repeat: repeat;
+  width: 20px;
+  height: 30px;
+  border-radius: 80% / 80%;
+  margin-left: 122px;
+  box-shadow: 6px 0px 0px 0px rgba(0, 0, 0, 0.17);
+  transform: rotate(20deg);
+  z-index: 99;
 }
 #base-2,
 #base-4 {
@@ -120,7 +154,7 @@ body {
   height: 60px;
   border-radius: 80% / 80%;
   margin-left: 65px;
-  box-shadow: 8px 2px 0px 0px rgba(0, 0, 0, 0.17),
+  box-shadow: 8px 0px 0px 0px rgba(0, 0, 0, 0.17),
     inset 10px 0px 0px 0px rgb(0 0 0 / 17%),
     inset -10px 0px 0px 0px rgb(0 0 0 / 17%);
   clip: rect(0px, 100px, 50px, 0px);
